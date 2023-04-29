@@ -4,3 +4,4 @@
 - Redux + Redux Toolkit + React Redux
 - Redux + Easy Peasy
 - Zustand
+- React Query

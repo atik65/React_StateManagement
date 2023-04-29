@@ -10,6 +10,8 @@ import { StoreProvider } from "easy-peasy";
 import App3 from "./App3.jsx";
 import store from "./redux_toolkit/store/store.js";
 import App4 from "./App4.jsx";
+import App5 from "./App5.jsx";
+import ReactQueryProvider from "./react_query/query_provider/ReactQueryProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
@@ -23,5 +25,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   // </Provider>
   // </React.StrictMode>
 
-  <App4 />
+  // <App4 />
+
+  <ReactQueryProvider>
+    <App5 />
+  </ReactQueryProvider>
 );
